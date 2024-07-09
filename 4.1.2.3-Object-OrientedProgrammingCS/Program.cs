@@ -4,8 +4,13 @@
     {
         static void Main(string[] args)
         {
-            regularPolygon hexagon = new regularPolygon(32, 1);
+            regularPolygon hexagon = new regularPolygon(6, 12);
             Console.WriteLine(hexagon.Area());
+            Circle circle = new Circle(10);
+            Console.WriteLine(circle.Area());
+            Triangle triangle = new Triangle(10, 5);
+            Console.WriteLine(triangle.Area());
+
         }
     }
 }
